@@ -34,59 +34,43 @@ body {
 .flex-items:hover{
     transform: scale(1.05);
 }
-
-.carousel-container {
+/* 
+.carouselSlide {
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
     padding: 5rem;
-  }
+  } */
   
-  .carousel-slide {
-    display: flex;
-    transition: transform 0.3s ease;
-  }
-  
-  .carousel-slide img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .carousel-prev-btn,
-  .carousel-next-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    z-index: 1;
-  }
-  
-  .carousel-prev-btn {
-    left: 10px;
-  }
-  
-  .carousel-next-btn {
-    right: 10px;
-  }
-
+/* 
 .slide {
     position: relative;
+  } */
+
+  p {
+    color: black;
   }
+
+
+.carousel slide {
   
-  .slide-text {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    color: #fff;
-    font-size: 18px;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 5px 10px;
+}
+  .c-item {
+    height: 480px;
+  }
+
+  .c-img {
+    height: 480px;
+    object-fit: cover;
+  }
+
+  .carousel-control-prev {
+
+  }
+
+  .carousel-control-next {
+
   }
 
 footer {
